@@ -12,7 +12,7 @@ function pageLoad() {
   //passenger1Phone = ride[0].
   
 
-  if (ride.length > 1 && ride[0].numberOfPassengers == 1) {
+  if (ride.length > 1 || ride[0].numberOfPassengers == 1) {
     levelOfService = 'Noober Pool'
   } else if (ride.purplerequested = true) {
     levelOfService = 'Noober Purple'
